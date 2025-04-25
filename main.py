@@ -43,5 +43,3 @@ if user_input:
         st.write("**You:**", user_input)
         st.write("**Bot:**", response)
 
-    if "talk to human" in user_input.lower():
-        st.info("Connecting you to a human agent... Please wait.")
